@@ -26,12 +26,12 @@
             <ul class="hero__content__combos">
                 <li class="hero__content__combos__combo">
                     <img src="./dist/images/logos/disney_star_plus.png" alt="Disney + - Star + - Combo+">
-                    <button>Assine Agora</button>
+                    <button class="button">Assine Agora</button>
                     <span class="text">R$ 45,90/mês</span>
                 </li>
                 <li class="hero__content__combos__combo">
                     <img src="./dist/images/logos/disney_star_plus.png" alt="Disney + - Star + - Combo+">
-                    <button>Assine Agora</button>
+                    <button class="button">Assine Agora</button>
                     <span class="text">R$ 45,90/mês</span>
                 </li>
             </ul>
@@ -40,5 +40,107 @@
             </p>
         </div>
     </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
+                Em breve
+            </button>
+            <button data-tab-button="populares" class="shows__tabs__button">
+                Mais populares
+            </button>
+            <button data-tab-button="star_plus" class="shows__tabs__button">
+                Mais no Star+
+            </button>
+
+        </nav>
+        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
+            <li class="show__list__item">
+                <img src="./dist/images/em_breve/spidey.jpg" alt="Spider man">
+            </li>
+            <li class="show__list__item">
+                <img src="./dist/images/em_breve/desencantada.jpg" alt="Spider man">
+            </li>
+            <li class="show__list__item">
+                <img src="./dist/images/em_breve/lobisomem.jpg" alt="Spider man">
+            </li>
+            <li class="show__list__item">
+                <img src="./dist/images/em_breve/sem_limites.jpg" alt="Spider man">
+            </li>
+            <li class="show__list__item">
+                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="Spider man">
+            </li>
+            <li class="show__list__item">
+                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="Spider man">
+            </li>
+        </ul>
+        <ul data-tab-id="populares" class="shows__list">
+            <li class="show__list__item">
+                <img src="./dist/images/mais_populares/obi_wan.jpg" alt="Spider man">
+            </li>
+            <li class="show__list__item">
+                <img src="./dist/images/em_breve/desencantada.jpg" alt="Spider man">
+            </li>
+            <li class="show__list__item">
+                <img src="./dist/images/em_breve/lobisomem.jpg" alt="Spider man">
+            </li>
+            <li class="show__list__item">
+                <img src="./dist/images/em_breve/sem_limites.jpg" alt="Spider man">
+            </li>
+            <li class="show__list__item">
+                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="Spider man">
+            </li>
+            <li class="show__list__item">
+                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="Spider man">
+            </li>
+        </ul>
+        <ul data-tab-id="star_plus" class="shows__list">
+            <li class="show__list__item">
+                <img src="./dist/images/mais_no_star_plus/libertadores.jpg" alt="Libertadores">
+            </li>
+            <li class="show__list__item">
+                <img src="./dist/images/mais_no_star_plus/libertadores.jpg" alt="Spider man">
+            </li>
+            <li class="show__list__item">
+                <img src="./dist/images/em_breve/lobisomem.jpg" alt="Spider man">
+            </li>
+            <li class="show__list__item">
+                <img src="./dist/images/em_breve/sem_limites.jpg" alt="Spider man">
+            </li>
+            <li class="show__list__item">
+                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="Spider man">
+            </li>
+            <li class="show__list__item">
+                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="Spider man">
+            </li>
+        </ul>
+    </section>
+    <section class="plans">
+        <h2 class="title--big">Escolha seu plano</h2>
+        <ul class="plans__list">
+            <li class="plans__list__item">
+                <img src="./dist/images/logos/disneyplus_underline.png" alt="Disney+">
+                <strong class="title--small">R$ 22,90/mês*</strong>
+                <p class="text--big">No disney+ você encontra as últimas estreias do cinema, originais e clássicos inesquecíveis.</p>
+                <button class="button">Assine agora</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="./dist/images/logos/disney_star_plus_sm.png" alt="Disney+">
+                <strong class="title--small">R$ 29,90/mês*</strong>
+                <p class="text--big">Assine o Disney+ e Star+ juntos. Economize e aprovete agora os dois serviços por um preço único.</p>
+                <button class="button">Assine agora</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="./dist/images/logos/disney_star_plus_starzplay_underline.png" alt="Disney+">
+                <strong class="title--small">R$ 37,90/mês*</strong>
+                <p class="text--big">Disney+, Star+ e STARZPLAY em um plano especial. Assine agora os três serviços juntos.</p>
+                <button class="button">Assine agora</button>
+            </li>
+        </ul>
+        <p class="text--small">
+            * O preço pode variar caso a ssinatura seja feita através de outras plataformas.
+        </p>
+    </section>
+
+    <script src="./src/main.js"></script>
 </body>
 </html>
