@@ -5,6 +5,7 @@
     min-height: 50vw;
 
     &__list {
+        list-style-type: none;
         display: none;
         grid-template-columns: 1fr 1fr 1fr ;
         gap: 24px;
@@ -20,6 +21,8 @@
                 max-width: 100%;
             }
         }
+
+        
     }
 
     &__tabs {
