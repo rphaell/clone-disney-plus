@@ -16,5 +16,8 @@
     "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.77.6"
+  },
+  "devDependencies": {
+    "gulp-uglify": "^3.0.2"
   }
 }
